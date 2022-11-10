@@ -55,7 +55,7 @@ const displayCalculator = () => {
         fois.innerHTML = "&times";
         fois.classList.add("ope");
         fois.addEventListener("click", () => {
-          displayCalcul(" x ");
+          displayCalcul(" * ");
         });
         calculator.appendChild(fois);
 
