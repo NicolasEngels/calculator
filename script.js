@@ -201,7 +201,6 @@ const displayCalculator = () => {
 let calculString = "";
 
 const displayCalcul = (i) => {
-    console.log(i);
     calculString = calculString + i;
     document.getElementById('result').value = calculString;
 }
