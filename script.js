@@ -213,7 +213,7 @@ const reset = () => {
 
 const calcul = () => {
   document.getElementById("result").value = computeResult(calculString);
-  calculString = "";
+  calculString = computeResult(calculString);
 };
 
 function computeResult(str) {
