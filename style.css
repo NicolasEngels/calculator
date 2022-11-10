@@ -1,3 +1,41 @@
+
 body{
-    background-color: #210E08;
+    background-color: black;
+}
+
+button{
+    cursor: pointer;
+    font-size: x-large;
+    font-family:sans-serif;
+    border-radius: 50%;
+    border: 0;
+    color: white;
+}
+
+input{
+    border-radius: 50px;
+    border: 0;
+    font-size: xx-large;
+    font-family:sans-serif;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+.num{
+    background-color: #313131;
+}
+
+.ope{
+    background-color: #F69A06;
+    font-size: xx-large;
+}
+
+.lightgrey{
+    background-color: #9F9F9F;
+    color: black;
 }
